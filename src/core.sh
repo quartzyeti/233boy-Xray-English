@@ -1673,7 +1673,7 @@ update() {
 
 # main menu; if no prefer args.
 is_main_menu() {
-    msg "\n------------- $is_core_name script $is_sh_ver by $author -------------"
+    msg "\n------- $is_core_name script $is_sh_ver by 233boy [$author's bad translation] -------"
     msg "$is_core_ver: $is_core_status"
     msg "Group (Chat): $(msg_ul https://t.me/tg233boy)"
     is_main_start=1
