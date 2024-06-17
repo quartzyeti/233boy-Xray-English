@@ -1711,7 +1711,7 @@ is_main_menu() {
         show_help
         ;;
     9)
-        ask list is_do_other "Enable BBR View Logs View Error Logs Test Runs Reinstall Scripts Set DNS"
+        ask list is_do_other "Enable_BBR View_Logs View_Error_Logs Test_Runs Reinstall_Script Set_DNS"
         case $REPLY in
         1)
             load bbr.sh

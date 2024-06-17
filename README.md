@@ -3,7 +3,7 @@ All I did was translate some of the script into English. I probably broke everyt
 # And for the quick & lazy...
 ```
 bash <(wget -qO- -o- https://github.com/quartzyeti/Xray/raw/main/install.sh)
-
+```
 
 # introduce
 
