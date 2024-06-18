@@ -308,7 +308,7 @@ main() {
     # show welcome msg
     clear
     echo
-    echo "........... $is_core_name script by $author .........."
+    echo "....... $is_core_name script by 233boy [$author's bad translation] ......."
     echo
 
     # start installing...

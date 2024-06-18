@@ -114,7 +114,7 @@ msg_ul() {
 # pause
 pause() {
     echo
-    echo -ne "Press $(_green Enter) to continue, or $(_red Ctrl + C) to cance."
+    echo -ne "Press $(_green Enter) to continue, or $(_red Ctrl + C) to cancel."
     read -rs -d $'\n'
     echo
 }
@@ -128,7 +128,7 @@ get_ip() {
     export "$(_wget -4 -qO- https://one.one.one.one/cdn-cgi/trace | grep ip=)" &>/dev/null
     [[ ! $ip ]] && export "$(_wget -6 -qO- https://one.one.one.one/cdn-cgi/trace | grep ip=)" &>/dev/null
     [[ ! $ip ]] && {
-        err "Failed to obtain server IP.."
+        err "Failed to obtain server IP."
     }
 }
 
